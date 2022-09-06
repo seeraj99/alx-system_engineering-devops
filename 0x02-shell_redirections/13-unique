@@ -1,3 +1,5 @@
 #!/bin/bash
 sort | uniq -u
 grep "root" /etc/passwd
+grep "root" /etc/passwd
+sort | uniq -u
